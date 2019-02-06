@@ -4,3 +4,143 @@
 
 display:none;
 }
+
+#siteCon {
+	margin: 0 auto;
+	/*max-wdith up to 1200px*/
+	width: 960px;
+	height: 4000px;
+	/*background-color: #f5f7fa;*/
+}
+
+#mainHeader {
+	margin-top: 0px;
+	height: 195px;
+	display: flex;
+	flex-direction: row;
+	border-bottom: solid 10px #666666;
+}
+
+#logo {
+	width: 280px;
+	height: 170px;
+	background-color: #666666;
+	margin-top: 20px;
+}
+
+#nav {
+	/*margin-left: auto;*/
+	margin-left: 240px;
+	margin-top: 150px;
+	/*could also use justify-content: space between; in #mainHeader in stead of margin-left:auto; here*/
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	height: 40px;
+	background-color: #cccccc;
+}
+
+#contact {
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+}
+
+#contactForm {
+	display: flex;
+	width: 370px;
+	height: 360px;
+	background-color: #666666;
+}
+
+#map {
+	margin-left: 200px;
+	width: 370px;
+	height: 360px;
+	background-color: #666666;
+}
+
+#address {
+	display: flex;
+	flex-direction: row;
+	margin-top: 60px;
+}
+
+#addressField {
+	display: flex;
+	width: 500px;
+	height: 300px;
+	background-color: #cccccc;
+}
+
+#genMsg {
+	margin-left: auto;
+	display: flex;
+	width: 400px;
+	height: 300px;
+	background-color: #cccccc;
+
+}
+
+#mainFooter {
+	display: flex;
+	flex-direction: row;
+	margin-top: 80px;
+	border-top: solid 10px #666666;
+}
+
+#mainFooter #logo {
+	width: 150px;
+	height: 155px;
+	background-color: #666666;
+	margin-top: 20px;
+}
+
+#footerNav {
+		/*margin-left: auto;*/
+	margin-left: 310px;
+	margin-top: 130px;
+	/*could also use justify-content: space between; in #mainHeader in stead of margin-left:auto; here*/
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	height: 40px;
+	background-color: #cccccc;
+}
+
+/*about CSS*/
+
+#about {
+	width: 600px;
+	height: 250px;
+	background-color: #cccccc;
+	margin-top: 20px;
+}
+
+#excutiveHeader {
+	width: 180px;
+	height: 40px;
+	background-color: #cccccc;
+	margin-top: 40px;
+}
+
+#excutiveTXT {
+	width: 600px;
+	height: 250px;
+	background-color: #cccccc;
+	margin-top: 30px;
+}
+
+#voulenteerHeader {
+	width: 180px;
+	height: 40px;
+	background-color: #cccccc;
+	margin-top: 40px;
+}
+
+#voulenteerTXT {
+	width: 600px;
+	height: 250px;
+	background-color: #cccccc;
+	margin-top: 30px;
+}
